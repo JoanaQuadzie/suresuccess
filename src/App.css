@@ -1,0 +1,43 @@
+.bg {
+  background-image: url("/src/assest/sure2.jpg");
+  background-size: cover;
+  width: 95vw;
+  padding: 40px;
+  height: 120vh;
+  background-attachment: fixed;
+}
+
+a{
+color: green;
+
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+}
+
+li{
+  list-style-type: none;
+  padding: 2px;
+  list-style-type: circle;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.top-items {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;  
+}
+
+.submit {
+  background-color: white;
+    color: green;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
