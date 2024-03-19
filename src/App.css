@@ -7,17 +7,17 @@
   background-attachment: fixed;
 }
 
-a{
-color: green;
+a {
+  color: green;
 
 }
 
-ul{
+ul {
   display: flex;
   justify-content: center;
 }
 
-li{
+li {
   list-style-type: none;
   padding: 2px;
   list-style-type: circle;
@@ -26,18 +26,43 @@ li{
 
 }
 
-.top-items {
-  display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 25px;
-    padding: 10px;  
-}
+/* .submit {
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+} */
 
 .submit {
   background-color: white;
-    color: green;
-    padding: 10px 20px;
-    border-radius: 20px;
+  color: green;
+  padding: 10px 20px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  display: none;
+  align-items: center;
+
 }
 
+.header-text h4 {
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer-bg {
+  background-color: black;
+  color: white;
+  height: 100px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.services {
+  text-align: center;
+}
+
+.top-items h2{
+color: green;
+/* padding-top: 25px; */
+}
